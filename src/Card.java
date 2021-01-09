@@ -2,37 +2,6 @@ import java.util.Scanner;
 
 public class Card {
 
-    /******************************************************************************
-
-     A Card object represents a playing card.  You can construct a card by writing
-
-     Card c = new Card(value, suit);
-
-     The value and suit are each given as an int, using the encodings shown below.
-
-     There are three non-static methods, getValue(), getSuit(), and
-     toString().  In another class, you could write
-
-     c.getValue()
-
-     to get the value of card c, and so on.
-
-     There are three static methods, getSuitString(), getValueString(),
-     and main().  In another class you could write
-
-     Card.getSuitString(3);
-
-     to get the String, "Clubs", for the suit with index 3.
-
-     Your task in this class is to fill in methods getValueString() and toString().
-     Once you've done this, you can compile, and then you can test your program by running
-
-     java Card
-
-     The main method has an infinite loop, so you'll need to hit CTRL-C to quit.
-
-     ******************************************************************************/
-
     private int value;         // 1=ace, ..., 11=jack, 12=queen, 13=king
     private int suit;          // 0=spades, 1=hearts, 2=diamonds, 3=clubs
 
