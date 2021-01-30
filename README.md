@@ -2,7 +2,7 @@
 
 ## Developed a Java program that creates, evaluates and compares poker hands.
 
-# `Card` class
+## `Card` class
 
 ```
 public Card (int v, int s) {
@@ -13,8 +13,8 @@ public Card (int v, int s) {
 
 ---
 
-`Deck` class
+## `Deck` class
 
 ---
 
-`Poker` class
+## `Poker` class
